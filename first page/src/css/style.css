@@ -2,13 +2,22 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Poppins;
+}
+@font-face {
+  font-family: Poppins;
+  src: url(..//font/Poppins-Medium.ttf);
 }
 a {
   text-decoration: none;
   color: black;
 }
+ul {
+  list-style-type: none;
+}
 body {
   background-color: #f2f2f2;
+  overflow-x: hidden;
 }
 .container {
   width: 1920px;
@@ -112,11 +121,92 @@ input[type="text"] {
   margin: auto;
 }
 .card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 10px;
+}
+.card-border {
   border-radius: 24px;
+  width: 400px;
+  height: 400px;
   background-color: white;
-  width: 395px;
-  height: 424px;
+}
+.card-border h2 {
+  font-size: 16px;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+.card-border p {
+  margin-left: 10px;
+  margin-top: 5px;
 }
 .photo {
-  margin: auto;
+  margin: 16px;
+}
+.vip {
+  border-radius: 15px;
+  padding: 13px;
+  margin-left: 10px;
+  margin-top: 10px;
+  color: white;
+
+  background-color: #29b24e;
+  position: absolute;
+}
+.text {
+  text-align: right;
+  color: green;
+  font-weight: bold;
+  font-size: 24px;
+}
+.border-text {
+  border-top: 2px solid #cfead6;
+  display: flex;
+  justify-content: space-between;
+}
+.text-border {
+  font-weight: bold;
+  font-size: 14px;
+}
+.footer-background {
+  width: 1920px;
+  border-radius: 25px;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  background-color: #29b24e;
+}
+.footer-text-class {
+  display: flex;
+  justify-content: space-around;
+  max-width: 90%;
+
+  color: white;
+  margin-bottom: 30px;
+}
+.footer-text-class a {
+  color: white;
+}
+.home {
+  display: flex;
+
+  gap: 48px;
+  font-size: 14px;
+}
+.footer-text {
+  border-bottom: 1px white solid;
+  margin-top: 20px;
+}
+.social {
+  display: flex;
+  margin-right: -10%;
+  font-size: 14px;
+  gap: 48px;
+}
+.Gibraltar {
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  margin-top: 20px;
 }
