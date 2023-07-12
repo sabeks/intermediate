@@ -210,3 +210,23 @@ input[type="text"] {
   color: white;
   margin-top: 20px;
 }
+/* secondpage */
+.main {
+  display: flex;
+}
+.main-border {
+  border-radius: 24px;
+  width: 786px;
+  height: 732px;
+  background-color: white;
+}
+.text-center {
+  display: flex;
+  align-items: center;
+}
+.center {
+  font-size: 12px;
+}
+.main-border-header {
+  display: inline-block;
+}
