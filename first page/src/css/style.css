@@ -230,3 +230,13 @@ input[type="text"] {
 .main-border-header {
   display: inline-block;
 }
+.similar {
+  width: 1920px;
+  max-width: 90%;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+}
+.similar-ads {
+  margin-left: 130px;
+}
